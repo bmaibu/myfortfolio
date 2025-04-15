@@ -1,0 +1,42 @@
+.home-button {
+    position: absolute;
+    bottom: 30px;
+    left: 45%;
+    padding: 12px 24px;
+    background-color: #ffcc00;
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .home-button:hover {
+    background-color: #e6b800;
+    color: white;
+  }
+   .back-button {
+    display: block;
+    margin: 30px auto 0;
+    position: absolute;
+    bottom: 90px;
+    left: 45%;
+    padding: 12px 24px;
+    background-color: #ffaa00;
+    color: #000;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  }
+
+  .back-button:hover {
+    background-color: #e69a00;
+    color: #fff;
+  }

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Portfolio Welcome</title>
+  <link rel="stylesheet" href="back.css" />
+
+  <style>
+    body {
+      margin: 0;
+      padding-top:50px ;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(135deg, #6363e1,rgb(212, 147, 55), #65baa6);
+      font-family: 'Segoe UI', sans-serif;
+    }
+    h1{
+      font-weight: bold;
+      color: #ffcc00;
+      padding-bottom: 700px ;
+    }
+    h2{
+      position: absolute;
+      font-weight: bold;
+      color: #ffcc00;
+      padding-top: 200px;
+    }
+
+    .message {
+      font-size: 2em;
+      font-weight: bold;
+      color: #ffcc00;
+      background-color: rgba(255, 255, 255, 0.05);
+      position: absolute;
+      text-align: center;
+      padding: 30px 50px;
+      border-radius: 15px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+      opacity: 0;
+      transform: translateY(20px);
+      transition: all 1s ease;
+    }
+
+    .message.show {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  
+</style>
+
+
+</head>
+<body>
+    <h1>Welcome</h1>
+    <h2>Thanks for Visiting My Website!</h2>
+
+  <div class="message" id="welcomeMessage">
+    You are already on the portfolio website created by me 🌐
+  </div>
+  
+  <button class="back-button" onclick="goToProjects()">🔙 Return to Projects</button>
+  <button onclick="goHome()" class="home-button">🏠 Return to Home</button>
+
+
+  <script>
+    // Show message with animation on load
+    window.onload = () => {
+      document.getElementById('welcomeMessage').classList.add('show');
+    };
+
+
+ 
+  // Show the welcome message with animation
+  window.onload = () => {
+    document.getElementById('welcomeMessage').classList.add('show');
+  };
+</script>
+<script src="back.js"></script>
+
+
+</body>
+</html>
