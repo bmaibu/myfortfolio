@@ -18,7 +18,7 @@ function animateBar(id, percent) {
     animateBar("html-bar", 60);
     animateBar("css-bar", 50);
     animateBar("js-bar", 40);
-    animateBar("react-bar",40 );
+    animateBar("react-bar", 40);
     animateBar("cpp-bar", 45);
     animateBar("dsa-bar", 25);
   };
