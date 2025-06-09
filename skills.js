@@ -17,7 +17,8 @@ function animateBar(id, percent) {
   window.onload = () => {
     animateBar("html-bar", 60);
     animateBar("css-bar", 50);
-    animateBar("js-bar", 35);
-    animateBar("cpp-bar", 40);
+    animateBar("js-bar", 40);
+    animateBar("react-bar",40 );
+    animateBar("cpp-bar", 45);
     animateBar("dsa-bar", 25);
   };
